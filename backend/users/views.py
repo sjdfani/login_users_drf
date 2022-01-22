@@ -8,7 +8,6 @@ from .serializer import LoginSerialzer
 
 
 class LoginUser(APIView):
-    # authentication_classes = []
 
     def post(self, request):
         msg = dict()
